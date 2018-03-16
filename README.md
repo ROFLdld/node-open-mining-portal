@@ -41,13 +41,13 @@ Usage of this software requires abilities with sysadmin, database admin, coin da
 
 ### Features
 
-* For the pool server it uses the highly efficient [node-stratum-pool](//github.com/zone117x/node-stratum-pool) module which
-supports vardiff, POW & POS, transaction messages, anti-DDoS, IP banning, [several hashing algorithms](//github.com/zone117x/node-stratum-pool#hashing-algorithms-supported).
+* For the pool server it uses the highly efficient [node-stratum-pool](//github.com/ROFLdld/node-stratum-pool) module which
+supports vardiff, POW & POS, transaction messages, anti-DDoS, IP banning, [several hashing algorithms](//github.com/ROFLdld/node-stratum-pool#hashing-algorithms-supported).
 
 * The portal has an [MPOS](//github.com/MPOS/php-mpos) compatibility mode so that the it can
 function as a drop-in-replacement for [python-stratum-mining](//github.com/Crypto-Expert/stratum-mining). This
 mode can be enabled in the configuration and will insert shares into a MySQL database in the format which MPOS expects.
-For a direct tutorial see the wiki page [Setting up NOMP for MPOS usage](//github.com/zone117x/node-open-mining-portal/wiki/Setting-up-NOMP-for-MPOS-usage).
+For a direct tutorial see the wiki page [Setting up NOMP for MPOS usage](//github.com/ROFLdld/node-open-mining-portal/wiki/Setting-up-NOMP-for-MPOS-usage).
 
 * Multi-pool ability - this software was built from the ground up to run with multiple coins simultaneously (which can
 have different properties and hashing algorithms). It can be used to create a pool for a single coin or for multiple
@@ -553,6 +553,7 @@ Credits
 * [svirusxxx](//github.com/svirusxxx) - sponsored development of MPOS mode
 * [icecube45](//github.com/icecube45) - helping out with the repo wiki
 * [Fcases](//github.com/Fcases) - ordered me a pizza <3
+* [zone117x](//github.com/zone117x) - who I stole this from
 * Those that contributed to [node-stratum-pool](//github.com/zone117x/node-stratum-pool#credits)
 
 
